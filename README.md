@@ -6,7 +6,7 @@ A real-time facial emotion detection system built with Python, OpenCV, and DeepF
 
 | Image 1 | Image 2 | Image 3 |
 |---------|---------|---------|
-| ![](results/result1.jpg) | ![](results/result2.jpg) | ![](results/result3.jpg) |
+| ![](https://github.com/ManalAlewisi/emotion_detection/blob/main/result1.jpg) | ![](https://github.com/ManalAlewisi/emotion_detection/blob/main/result2.jpg) | ![](https://github.com/ManalAlewisi/emotion_detection/blob/main/result3.jpg) |
 
 ## 🔍 Features
 
@@ -43,22 +43,16 @@ Then choose:
 - **2** → Real-time camera detection (press `q` to quit, `s` to save screenshot)
 
 ## 📁 Project Structure
+```
 emotion_detection/
-
 │
-
 ├── emotion_detector.py   # Main script
-
 ├── README.md             # Project documentation
-
 └── results/
-
-├── result1.jpg       # Demo result 1
-
-├── result2.jpg       # Demo result 2
-
-└── result3.jpg       # Demo result 3
-
+  ├── result1.jpg       # Demo result 1
+  ├── result2.jpg       # Demo result 2
+  └── result3.jpg       # Demo result 3
+```
 ## 🧠 Model
 
 This project uses [DeepFace](https://github.com/serengil/deepface) library which uses a lightweight CNN trained on FER-2013 dataset for emotion recognition.
